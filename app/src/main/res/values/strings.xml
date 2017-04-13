@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Wine Tenders</string>
+
+    //String array to test dropdown options, replace later.
+    <string-array name="wines_array">
+        <item>Red</item>
+        <item>White</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 </resources>
