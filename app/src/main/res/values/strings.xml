@@ -12,4 +12,11 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+
+    //String array to test dropdown options, replace later.
+    <string-array name="price_array">
+        <item>$5 - $15</item>
+        <item>$5 - $15</item>
+        <item>$5 - $15</item>
+    </string-array>
 </resources>
