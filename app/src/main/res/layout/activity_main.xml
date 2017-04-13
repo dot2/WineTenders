@@ -9,13 +9,15 @@
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:orientation="vertical">
+
+        //wine type row
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
             <TextView
@@ -23,16 +25,117 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Type of wine:"
+                android:textSize="17dp"
                 tools:layout_editor_absoluteX="80dp"
                 tools:layout_editor_absoluteY="-7dp" />
 
             <Spinner
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="50dp"
+                android:padding="5dp" />
 
         </LinearLayout>
 
+        //price range row
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/priceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price Range:"
+                android:textSize="17dp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="-7dp" />
+
+            <Spinner
+                android:id="@+id/priceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        //sweetness row
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sweetnessTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweetness:"
+                android:textSize="17dp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="-7dp" />
+
+            <Spinner
+                android:id="@+id/sweetnesSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        //acidity row
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/acidityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acidity:"
+                android:textSize="17dp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="-7dp" />
+
+            <Spinner
+                android:id="@+id/aciditySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        //bitterness row
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bitternessTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bitterness:"
+                android:textSize="17dp"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="-7dp" />
+
+            <Spinner
+                android:id="@+id/bitternessSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
