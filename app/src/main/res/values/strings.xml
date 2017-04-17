@@ -5,18 +5,33 @@
     <string-array name="wines_array">
         <item>Red</item>
         <item>White</item>
-        <item>Blue</item>
-        <item>Pink</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
     </string-array>
 
     //String array to test dropdown options, replace later.
     <string-array name="price_array">
         <item>$5 - $15</item>
-        <item>$5 - $15</item>
-        <item>$5 - $15</item>
+        <item>$15 - $25</item>
+        <item>$25 - $50</item>
+    </string-array>
+
+    //String array to test dropdown options, replace later.
+    <string-array name="sweetness_array">
+        <item>Not Sweet</item>
+        <item>Sweet</item>
+        <item>Very Sweet</item>
+    </string-array>
+
+    //String array to test dropdown options, replace later.
+    <string-array name="acidity_array">
+        <item>Not Acidic</item>
+        <item>Acidic</item>
+        <item>Very Acidic</item>
+    </string-array>
+
+    //String array to test dropdown options, replace later.
+    <string-array name="bitterness_array">
+        <item>Not Bitter</item>
+        <item>Bitter</item>
+        <item>Very Bitter</item>
     </string-array>
 </resources>
